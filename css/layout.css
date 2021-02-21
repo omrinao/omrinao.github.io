@@ -436,11 +436,11 @@ ul#nav li.current a { color: #F06000; }
    padding-bottom: 60px;
 }
 #portfolio h1 {
-   font: 15px/24px 'opensans-semibold', sans-serif;
+   font: 24px/24px 'opensans-semibold', sans-serif;
    text-transform: uppercase;
    letter-spacing: 1px;
    text-align: center;
-   margin-bottom: 48px;
+   margin-bottom: 90px;
    color: #95A3A3;
 }
 
@@ -819,19 +819,20 @@ call-to-action .button {
 #contact a:hover, #contact a:focus { color: #fff; }
 
 #contact h1 {
-   font: 18px/24px 'opensans-bold', sans-serif;
+   font: 35px/35px 'opensans-bold', sans-serif;
    text-transform: uppercase;
    letter-spacing: 3px;
    color: #EBEEEE;
-   margin-bottom: 6px;
+   margin-bottom: 26px;
+   margin-left: 20%;
 }
 #contact h1 span { display: none; }
 #contact h1:before {
    font-family: 'FontAwesome';
    content: "\f0e0";
-	padding-right: 10px;
+	padding-right: 30px;
 	font-size: 72px;
-   line-height: 72px;
+   line-height: 32px;
    text-align: left;
    float: left;
    color: #ebeeee;
@@ -843,17 +844,21 @@ call-to-action .button {
    margin-bottom: 6px;
 }
 #contact p.lead {
-   font: 18px/36px 'opensans-light', sans-serif;
+   font: 30px/36px 'opensans-light', sans-serif;
    padding-right: 3%;
 }
 #contact .header-col { padding-top: 6px; }
 
 
 /* contact form */
-#contact form { margin-bottom: 30px; }
+#contact form { 
+   margin-bottom: 30px;
+   margin-left: 16%;
+}
 #contact label {
-   font: 15px/24px 'opensans-bold', sans-serif;
-   margin: 12px 0;
+   font: 20px/24px 'opensans-bold', sans-serif;
+   /* margin: 12px 0; */
+   margin-left: 20px;
    color: #EBEEEE;
 	display: inline-block;
 	float: left;
@@ -870,7 +875,7 @@ call-to-action .button {
 	outline: none;
    font-size: 15px;
    line-height: 24px;
-   width: 65%;
+   width: 50%;
 }
 #contact input:focus,
 #contact textarea:focus,
@@ -878,21 +883,22 @@ call-to-action .button {
 	color: #fff;
 	background-color: #11ABB0;
 }
-#contact button.submit {
+#contact button {
 	text-transform: uppercase;
 	letter-spacing: 3px;
-	color:#fff;
-   background: #0D0D0D;
+	color:#0D0D0D;
+   background: #fff;
 	border: none;
    cursor: pointer;
    height: auto;
-   display: inline-block;
+   width: 250px;
 	border-radius: 3px;
    margin-left: 26%;
+   margin-top: 15px;
 }
-#contact button.submit:hover {
-	color: #0D0D0D;
-	background: #fff;
+#contact button:hover {
+	color: #fff;
+	background: #11ABB0;
 }
 #contact span.required {
 	color: #11ABB0;
